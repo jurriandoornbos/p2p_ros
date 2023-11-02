@@ -56,7 +56,7 @@ class MinimalSubscriber(Node):
         visuals = self.model.get_current_visuals()  # get image results
         
         np_img =  tensor2im(visuals["fake"])
-        out_msg = self.bridge.cv2_to_imgmsg(np_image, encoding="mono8")
+        out_msg = self.bridge.cv2_to_imgmsg(np_img, encoding="mono8")
         self.publisher_.publish(out_msg)
 
 
