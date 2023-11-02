@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>p2p_ros</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="jur@todo.todo">jur</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>Using pix2pix models in ros for img2img translation.</description>
+  <maintainer email="jurrian.doornbos@wur.nl">Jurrian</maintainer>
+  <license>MIT license</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
