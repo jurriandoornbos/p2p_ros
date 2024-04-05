@@ -1,0 +1,28 @@
+{
+  "title":"p2p_ros",
+  "creator": "Jurrian Doornbos",
+  "date": "10/11/2023",
+  "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+  "url": "https://github.com/jurriandoornbos/p2p_ros",
+  "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+  "uses_cases":[1],
+  "extra":{
+      "usage/description": "ROS Pix2Pix node, for image conversion using Pix2Pix inside the ROS ecosystem. Adapted from the original junyanz Pix2Pix repository."
+  },
+  "filters":{
+      "content": [
+          "ROS",
+          "Deep Learning"
+          ],  
+      "data-type": [
+          "RGB Images",
+      ], 
+
+      "subject": [
+      ],
+
+      "location": [
+          "Global"
+          ]
+        }
+    }
